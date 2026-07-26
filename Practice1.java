@@ -1,6 +1,6 @@
 package SUPER_X_DEMO;
 class Demo{
-    int x=50;
+    int x=30;
     Demo(){
         System.out.println("Constructor of Demo class");
     }
@@ -11,7 +11,7 @@ class Demo{
     }
 
     static void run(){
-        System.out.println("In run method");
+        System.out.println("In gun method");
     }
 }
 
@@ -29,7 +29,6 @@ class Child extends Demo{
         Demo d = new Demo();
         System.out.println(d.x);
         d.fun();
-        Demo.run();
 
         Child c = new Child();
         System.out.println(c.x);
