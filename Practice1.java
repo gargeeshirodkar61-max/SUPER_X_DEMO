@@ -15,7 +15,7 @@ class Demo{
     }
 }
 
-class Child extends Demo{
+class Child2 extends Demo{
     int x=100;
     Child(){
         System.out.println("Constructor of Child class");
