@@ -10,14 +10,14 @@ class Demo{
 
     }
 
-    static void run(){
-        System.out.println("In run method");
+    static void gun(){
+        System.out.println("In gun method");
     }
 
     public static void main(String[] args) {
         Demo d = new Demo();
         System.out.println(d.x);
         d.fun();
-        Demo.run();
+        Demo.gun();
     }
 }
