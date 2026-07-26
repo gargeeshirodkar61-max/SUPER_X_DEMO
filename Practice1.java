@@ -1,6 +1,6 @@
 package SUPER_X_DEMO;
 class Demo{
-    int x=10;
+    int x=20;
     Demo(){
         System.out.println("Constructor of Demo class");
     }
